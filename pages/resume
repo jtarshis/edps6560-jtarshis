@@ -8,13 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Jeremy's Portfolio</title>
+    <title>Bio</title>
   </head>
   <body>
     <nav>
-      <a href="#">Home</a><span> / </span>
-      <a href="pages/bio.html">Bio</a><span> / </span>
-      <a href="pages/resume.html">Resume</a>        
+      <a href="#">Home <span> / </span></a>
+      <a href="pages/guitars.html">My Guitars</a>
     </nav>
     <div>
         <h1>Welcome to my portfolio!</h1>
