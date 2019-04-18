@@ -1,41 +1,54 @@
-body{
-  font-family: arial;
-  background-color: #f2f3f4;
-  color: black;
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2f3f4;
+    color: black;
 }
 
-a:link{
+a:link {
     color: blue;
 }
-a:visited{
+
+a:visited {
     color: purple;
 }
-a:hover{
+
+a:hover {
     color: green;
 }
-a:active{
+
+a:active {
     color: red;
 }
-#list{
+
+#list {
     display: inline-block;
     height: 150px;
     width: 100px;
     background-color: #7eacf7;
     align-content: center;
     vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
 }
-nav{
+
+nav {
     display: block;
     text-transform: capitalize;
     width: auto;
     height: 22px;
-    background-color: #7eacf7;
     align-content: center;
     text-align: center;
 }
-#name-border{
+
+#name-border {
     border: 3px solid #7eacf7;
     border-width: medium;
     margin: auto;
     width: 27%;
 }
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
