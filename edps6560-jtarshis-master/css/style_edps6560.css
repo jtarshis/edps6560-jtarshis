@@ -1,0 +1,127 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    color: black;
+}
+
+a, a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+a.hyper_cus_1, a.hyper_cus_1:link{
+    color: white;
+}
+
+.jumbotron{
+    text-align: center;
+    margin: 0px;
+    background: url(../images/jumbotron_design_black_opacity.png);
+    background-position: center;
+    border-radius: 0px;
+}
+
+#list {
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    background-color: #7eacf7;
+    align-content: center;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    width: auto;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    position: sticky;
+}
+
+#name-border {
+    border: 3px solid #7eacf7;
+    border-width: medium;
+    margin: auto;
+    width: 27%;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#bio-image{
+    padding: 0px;
+    background: #BF970B;
+    vertical-align: middle;
+}
+
+#bio-text{
+    color: white;
+    background: #1e2874;
+    padding: 5%;
+}
+
+.container{
+    width: 100%;
+    margin: 0%;
+    border: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+#tri-col-bio{
+    display: grid;
+    grid-template-areas: "authoring lms software";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0%;
+    width: 100%;
+    justify-content: center;
+}
+
+#soft-skills-header{
+    margin: 0%;
+    text-align: center;
+    justify-content: center;
+}
+
+#authoring{
+    background-color: #4553bf;
+    grid-area: authoring;
+    color: white;
+    padding: 5px;
+}
+
+#tools{
+    background: #4553bf;
+    grid-area: software;
+    color: white;
+    padding: 5px;
+}
+
+#lms{
+    background: #ffffff;
+    grid-area: lms;
+    padding: 5px;
+}
+
+#work-experience{
+    background-color: #1e2874;
+    color: white;
+}
