@@ -26,7 +26,19 @@
 </head>
 
 <body>
-    <div class="jumbotron">
+    <nav class="navbar navbar-light fixed-top" style="background-color: #1e2874">
+        <div class="d-flex flex-row justify-content-center w-100 p-0 text-white" style="height: 40px">
+            <div class="align-self-center ml-2">
+                <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_about">About</h4>
+                <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_skills">Skills</h4>
+                <img>
+                <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_work">Work</h4>
+                <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_downloads">Downloads</h4>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <div class="jumbotron" id="about_section">
         <div class="container-" style="text-align: center; color: white">
             <h1>Jeremy Tarshis</h1>
         </div>
@@ -45,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="container-" style="text-align: center">
+    <div class="container-" style="text-align: center" id="skills_section"> 
         <div class="row" id="soft-skills-header">
             <h1>Software Skills</h1>
         </div>
@@ -53,31 +65,31 @@
             <div class="col" id="authoring">
                 <h3>Authoring Tools</h3>
                 <p style="margin: 0%">Articulate Storyline 2/3</p>
-                    <img src="../images/skill_rank_4_Skill%20Shapes.svg" width="30%" height="auto">
+                <img src="../images/skill_rank_4_Skill%20Shapes.svg" width="30%" height="auto">
                 <p style="margin: 0%">Adobe Captivate</p>
-                    <img src="../images/skill_rank_2_Skill%20Shapes.svg" width="30%" height="auto">
+                <img src="../images/skill_rank_2_Skill%20Shapes.svg" width="30%" height="auto">
             </div>
             <div class="col" id="lms">
                 <h3>Learning Management Systems</h3>
                 <p style="margin: 0%">Bridge</p>
-                    <img src="../images/skill_rank_3_light_blue__Skill%20Shapes_Skill%20Shapes.svg"  width="30%" height="auto">
+                <img src="../images/skill_rank_3_light_blue__Skill%20Shapes_Skill%20Shapes.svg" width="30%" height="auto">
                 <p style="margin: 0%">Axonify</p>
-                    <img src="../images/skill_rank_3_light_blue__Skill%20Shapes_Skill%20Shapes.svg"  width="30%" height="auto">
+                <img src="../images/skill_rank_3_light_blue__Skill%20Shapes_Skill%20Shapes.svg" width="30%" height="auto">
                 <p style="margin: 0%">Litmos</p>
-                    <img src="../images/skill_rank_3_light_blue__Skill%20Shapes_Skill%20Shapes.svg"width="30%" height="auto">
+                <img src="../images/skill_rank_3_light_blue__Skill%20Shapes_Skill%20Shapes.svg" width="30%" height="auto">
             </div>
             <div class="col" id="tools">
                 <h3>Other Tools</h3>
                 <p style="margin: 0%">Adobe Creative Cloud</p>
-                    <img src="../images/skill_rank_3_Skill%20Shapes.svg" width="30%" height="auto">
+                <img src="../images/skill_rank_3_Skill%20Shapes.svg" width="30%" height="auto">
                 <p style="margin: 0%">Microsoft Office</p>
-                    <img src="../images/skill_rank_4_Skill%20Shapes.svg" width="30%" height="auto">
+                <img src="../images/skill_rank_4_Skill%20Shapes.svg" width="30%" height="auto">
                 <p style="margin: 0%">HTML/CSS</p>
-                    <img src="../images/skill_rank_3_Skill%20Shapes.svg" width="30%" height="auto">
+                <img src="../images/skill_rank_3_Skill%20Shapes.svg" width="30%" height="auto">
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="text-align: center" id="work-experience">
+    <div class="container-fluid" style="text-align: center" id="work_section">
         <div class="row" style="justify-content: center">
             <h1>Work Experience</h1>
         </div>
@@ -99,7 +111,7 @@
             </div>
         </div>
     </div>
-    <div class="container-" style="text-align: center">
+    <div class="container-" style="text-align: center" id="downloads_section">
         <div class="row" style="justify-content: center">
             <h1>Downloads</h1>
         </div>
@@ -117,11 +129,12 @@
         </div>
     </div>
     <br>
- <div class="footer" style="text-align: center">
+    <div class="footer" style="text-align: center">
         <p>Copright© Jeremy Tarshis 2019</p>
     </div>
 
     <!-- Optional JavaScript -->
+    <script src="../js/variables.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
