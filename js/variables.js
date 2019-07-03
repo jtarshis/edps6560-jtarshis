@@ -9,3 +9,9 @@ var input_btn_work = document.getElementById("input_btn_work");
 
 var input_btn_downloads = document.getElementById("input_btn_downloads");
     console.log(input_btn_downloads);
+
+var myBtn = document.getElementById("myBtn");
+    console.log(myBtn);
+
+var top_navbar = document.getElementById("top_navbar");
+    console.log(top_navbar);

@@ -26,12 +26,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light fixed-top" style="background-color: #1e2874">
+    <nav class="navbar navbar-light fixed-top" id="top_navbar" style="background-color: #1e2874">
         <div class="d-flex flex-row justify-content-center w-100 p-0 text-white" style="height: 40px">
             <div class="align-self-center ml-2">
                 <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_about">About</h4>
-                <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_skills">Skills</h4>
-                <img>
+                <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_skills" style="margin-right: 4px ">Skills</h4>
+                <img src="./icons/White_logo.svg" style="height: 50px; width: auto">
                 <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_work">Work</h4>
                 <h4 class="d-inline ml-1 mb-0 align-middle" id="input_btn_downloads">Downloads</h4>
             </div>
@@ -132,9 +132,13 @@
     <div class="footer" style="text-align: center">
         <p>Copright© Jeremy Tarshis 2019</p>
     </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <!-- Optional JavaScript -->
     <script src="./js/variables.js"></script>
+    <script src="./js/listeners.js"></script>
+    <script src="./js/router.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
