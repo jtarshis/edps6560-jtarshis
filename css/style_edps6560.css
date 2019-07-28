@@ -4,24 +4,43 @@ body {
     color: black;
 }
 
-a, a:link {
-    color: blue;
-}
-
-a:visited {
-    color: purple;
-}
-
-a:hover {
-    color: green;
-}
-
-a:active {
-    color: red;
-}
-
 a.hyper_cus_1, a.hyper_cus_1:link{
     color: white;
+}
+
+a, a:hover {
+    font-size: 24px;
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.about-menu{
+  background-color: #95979A;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
 }
 
 #myBtn {

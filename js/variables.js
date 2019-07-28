@@ -15,3 +15,6 @@ var myBtn = document.getElementById("myBtn");
 
 var top_navbar = document.getElementById("top_navbar");
     console.log(top_navbar);
+
+var about_menu_hide = document.getElementById("about_menu_hide");
+    console.log(about_menu_hide);
